@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+I would use a remote repo when I was working on multiple computers or with other people to be able to keep the code up to date and always have the latest version.
+This would help me save time instead of keeping the code on a flash drive or something that I could potentially lose or misplace and then not have any of the code that I wrote.
