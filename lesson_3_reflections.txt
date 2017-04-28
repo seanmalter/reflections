@@ -1,12 +1,14 @@
 When would you want to use a remote repository rather than keeping all your work local?
-
 I would use a remote repo when I was working on multiple computers or with other people to be able to keep the code up to date and always have the latest version.
 This would help me save time instead of keeping the code on a flash drive or something that I could potentially lose or misplace and then not have any of the code that I wrote.
 
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-
 You might not want to pull changes automatically when you are working on a project with other people and the other people are making changes that could potentially mess up your project. You would want to keep your repo the same until you are ready to pull those changes.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Manually it does take more time, but you are able  to keep the logical changes that are important and also the integrity of the code. With automatic merges you have no control over what git keeps and what git throws away, so it could break your program or throw away the changes that you wanted in the code.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks pull someone elses repo to your collection to edit and change. clones make a copy of a repo (yours own or someone elses). Branches are a way of breaking up the code so that the master is in a stable version, and you can work on features without affecting the master.
