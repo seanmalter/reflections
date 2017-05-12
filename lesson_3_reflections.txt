@@ -12,3 +12,13 @@ Manually it does take more time, but you are able  to keep the logical changes t
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 forks pull someone elses repo to your collection to edit and change. clones make a copy of a repo (yours own or someone elses). Branches are a way of breaking up the code so that the master is in a stable version, and you can work on features without affecting the master.
+
+How to handle if your master doesn't match current master of another repo.
+  first commit current changes on your project
+  need to resolve the conflict on the clone in local repo
+  get origional repo branch (master)
+  add a remote to get the branch
+  need new remote to point to other repo (not the fork that you have on github, that remote is called origin)
+  usually call this new remote upstream
+  adding and fetching upstream
+  `git pull upstream master` to get the upstream (original repo) master
